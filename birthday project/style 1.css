@@ -1,0 +1,95 @@
+body{
+	text-align:center;
+	font-family:'happy monkey',cursive;
+	color:gold;
+    background:linear-gradient(#a2d2ff, #EFB0C9);
+	align-items: center;
+	font-size: 25px;
+
+}
+
+#img{
+	border:15px outset black;
+	border-radius:50%;
+	width:300px;
+	height:250px;
+	margin-bottom:10px;
+	margin-top:5px;
+}
+
+#age{
+	background-color:black;
+	padding:7px;
+	background-radius:18px;
+}
+#date{
+	background-color:black;
+	padding:7px;
+	background-radius:25px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+	
+.gift-img{
+    border: solid 5px white;
+	background-image: url("gift.jpg.jpg");
+	width:450px;
+	height: 400px;
+	align-items: center;
+	background-size: cover;
+
+}
+#happy:hover {
+	background-image: url("glass.gif");
+	background-repeat: no-repeat;
+	width: 450px;
+	background-size: auto;
+}
+#girls:hover{
+	background-image:url("stare.gif") ;
+}
+.gift-section{
+	margin-top: 50px;
+}
+h2.gift-title{
+	color:black;
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	margin-right: 200px;
+}
+.gift-items{
+	display: block;
+	margin-left: 550px;
+	margin-right: 250px;
+}
+#batman:hover {
+	background-image: url("batman.gif");
+}
+#why:hover {
+	background-image: url("img2.jpg");
+}
+#rock:hover {
+	background-image: url("rock.gif");
+}
+
+.gift-img2{
+	border: solid 5px white;
+	background-image: url("gift.jpg.jpg");
+	width:450px;
+	height: 325px;
+	align-items: center;
+	background-size: cover;
+
+}
+.gift-img3{
+	border: solid 5px white;
+	background-image: url("gift.jpg.jpg");
+	width: 500px;
+	height: 350px;
+	align-items: center;
+	background-size: cover;
+}
